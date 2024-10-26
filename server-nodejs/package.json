@@ -1,0 +1,36 @@
+{
+  "name": "verman-server",
+  "version": "1.0.0",
+  "description": "VerMan Server - Written in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-kas/verman.git"
+  },
+  "keywords": [
+    "verman",
+    "version",
+    "manager",
+    "nodejs",
+    "server"
+  ],
+  "author": "KAS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-kas/verman/issues"
+  },
+  "homepage": "https://github.com/dev-kas/verman#readme",
+  "dependencies": {
+    "@codegame/open-db": "^1.1.3",
+    "argon2": "^0.41.1",
+    "express": "^4.21.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
